@@ -15,7 +15,7 @@ steps:
   args: 
   - '-c'
   - |
-        terraform init
+        terraform init -backend=true
 
 # [START tf-plan]
 - id: 'tf plan'
