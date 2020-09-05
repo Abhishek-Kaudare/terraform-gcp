@@ -31,6 +31,9 @@ steps:
 - id: 'tf apply'
   name: 'hashicorp/terraform:0.12.24'
   entrypoint: 'sh'
-  args: ['apply', '-auto-approve']
-
+  args: 
+  - '-c'
+  - | 
+        terraform apply -auto-approve
+  waitFor: [tf plan]
 # [END tf-apply]      
