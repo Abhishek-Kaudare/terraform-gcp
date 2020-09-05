@@ -29,7 +29,7 @@ steps:
 
 # [START tf-apply]
 - id: 'tf apply'
-  name: 'hashicorp/terraform:0.11.14'
+  name: 'hashicorp/terraform:0.12.24'
   entrypoint: 'sh'
   args: 
   - '-c'
