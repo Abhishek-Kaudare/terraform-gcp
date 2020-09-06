@@ -1,5 +1,5 @@
 provider "google" {
- project     = "nimble-album-284416"
+ project     = "other-project-287906"
  region      = "us-central1"
 }
 
